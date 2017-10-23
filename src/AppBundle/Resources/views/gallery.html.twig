@@ -1,0 +1,167 @@
+{% extends '@App/base.html.twig' %}
+{% block body %}
+<!--==============================
+              header
+=================================-->
+<header>
+  <div class="header_top">
+    <div class="container">
+      <div class="row">
+        <div class="grid_12">
+          <h1><a href={{ path('homepage') }}>Photo.Folio <br> Capturing Life </a></h1>
+          your photographer
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="stuck_container">
+  <!--==============================
+              Stuck menu
+  =================================-->
+    <div class="container">
+      <div class="row">
+        <div class="grid_12 ">
+          <h1 class="logo">
+            <a href={{ path('homepage') }}>
+              Photo.Folio
+            </a>
+          </h1>
+          <div class="navigation ">
+            <nav>
+              <ul class="sf-menu">
+               <li><a href={{ path('homepage') }}>Home</a></li>
+               <li><a href={{ path('about') }}>About</a></li>
+               <li class="current"><a href={{ path('galery') }}>Gallery</a></li>
+               <li><a href={{ path('blog') }}>Blog</a></li>
+               <li><a href={{ path('contacts') }}>Contacts</a></li>
+             </ul>
+            </nav>
+            <div class="clear"></div>
+          </div>       
+         <div class="clear"></div>  
+        </div>
+     </div> 
+    </div> 
+  </section>
+</header>
+<!--=====================
+          Content
+======================-->
+<section id="content" class="gallery"><div class="ic">More Website Templates @ TemplateMonster.com - August11, 2014!</div>
+  <div class="container">
+    <div class="row">
+      <div class="grid_12">
+        <h2>Gallery</h2>
+      </div>
+      <div class="grid_4">
+        <div class="box">
+          <a href="{{ asset('images/big1.jpg') }}" class="gall_item"><img src="{{ asset('images/page3_img1.jpg') }}" alt=""><span></span></a>
+          <div class="box_bot">
+            <div class="box_bot_title">Bliquam nibh ante</div>
+            <p>Dorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis erat mattis neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo magna sodales felis, quis malesuada nibh odio ut velit</p>
+            <a href="#" class="btn">more</a>
+          </div>
+        </div>
+      </div>
+      <div class="grid_4">
+        <div class="box">
+          <a href="{{ asset('images/big2.jpg') }}" class="gall_item"><img src="{{ asset('images/page3_img2.jpg') }}" alt=""><span></span></a>
+          <div class="box_bot">
+            <div class="box_bot_title">Aliquam nibh ante</div>
+            <p>Dorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis erat mattis neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo magna sodales felis, quis malesuada nibh odio ut velit</p>
+            <a href="#" class="btn">more</a>
+          </div>
+        </div>
+      </div>
+      <div class="grid_4">
+        <div class="box">
+          <a href="{{ asset('images/big3.jpg') }}" class="gall_item"><img src="{{ asset('images/page3_img3.jpg') }}" alt=""><span></span></a>
+          <div class="box_bot">
+            <div class="box_bot_title">Cliqum nibh anteter</div>
+            <p>Dorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis erat mattis neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo magna sodales felis, quis malesuada nibh odio ut velit</p>
+            <a href="#" class="btn">more</a>
+          </div>
+        </div>
+      </div>
+      <div class="grid_4">
+        <div class="box">
+          <a href="{{ asset('images/big4.jpg') }}" class="gall_item"><img src="{{ asset('images/page3_img4.jpg') }}" alt=""><span></span></a>
+          <div class="box_bot">
+            <div class="box_bot_title">Gyloiqum nibh ante</div>
+            <p>Dorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis erat mattis neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo magna sodales felis, quis malesuada nibh odio ut velit</p>
+            <a href="#" class="btn">more</a>
+          </div>
+        </div>
+      </div>
+      <div class="grid_4">
+        <div class="box">
+          <a href="{{ asset('images/big5.jpg') }}" class="gall_item"><img src="{{ asset('images/page3_img5.jpg') }}" alt=""><span></span></a>
+          <div class="box_bot">
+            <div class="box_bot_title">Hqum nibh antetem</div>
+            <p>Dorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis erat mattis neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo magna sodales felis, quis malesuada nibh odio ut velit</p>
+            <a href="#" class="btn">more</a>
+          </div>
+        </div>
+      </div>
+      <div class="grid_4">
+        <div class="box">
+          <a href="{{ asset('images/big6.jpg') }}" class="gall_item"><img src="{{ asset('images/page3_img6.jpg') }}" alt=""><span></span></a>
+          <div class="box_bot">
+            <div class="box_bot_title">Hoiqum nibh antetew</div>
+            <p>Dorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis erat mattis neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo magna sodales felis, quis malesuada nibh odio ut velit</p>
+            <a href="#" class="btn">more</a>
+          </div>
+        </div>
+      </div>
+      <div class="grid_4">
+        <div class="box">
+          <a href="{{ asset('images/big7.jpg') }}" class="gall_item"><img src="{{ asset('images/page3_img7.jpg') }}" alt=""><span></span></a>
+          <div class="box_bot">
+            <div class="box_bot_title">Cliqum nibh anteter</div>
+            <p>Dorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis erat mattis neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo magna sodales felis, quis malesuada nibh odio ut velit</p>
+            <a href="#" class="btn">more</a>
+          </div>
+        </div>
+      </div>
+      <div class="grid_4">
+        <div class="box">
+          <a href="{{ asset('images/big8.jpg') }}" class="gall_item"><img src="{{ asset('images/page3_img8.jpg') }}" alt=""><span></span></a>
+          <div class="box_bot">
+            <div class="box_bot_title">Moqum nibh untetek</div>
+            <p>Dorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis erat mattis neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo magna sodales felis, quis malesuada nibh odio ut velit</p>
+            <a href="#" class="btn">more</a>
+          </div>
+        </div>
+      </div>
+      <div class="grid_4">
+        <div class="box">
+          <a href="{{ asset('images/big9.jpg') }}" class="gall_item"><img src="{{ asset('images/page3_img9.jpg') }}" alt=""><span></span></a>
+          <div class="box_bot">
+            <div class="box_bot_title">Dliqum nibh anteta</div>
+            <p>Dorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis erat mattis neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo magna sodales felis, quis malesuada nibh odio ut velit</p>
+            <a href="#" class="btn">more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--==============================
+              footer
+=================================-->
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="grid_12"> 
+        <h2>Contacts</h2>
+        <div class="footer_phone">+1 800 559 6580</div>
+        <a href="#" class="footer_mail">info@demolink.org</a>
+        <div class="sub-copy">Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">TemplateMonster.com</a></div>
+      </div>
+    </div>
+
+  </div>  
+</footer>
+<a href="#" id="toTop" class="fa fa-chevron-up"></a>
+{% endblock %}
+
